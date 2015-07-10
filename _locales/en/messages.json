@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Fullwidth Address Sanitizer",
+    "description": "Extension name."
+  },
+  "extDescription": {
+    "message": "Replace MINUS SIGN (U+2212) characters with PROLONGED SOUND MARK (U+30FC) characters in input text forms.",
+    "description": "Extension description."
+  }
+}

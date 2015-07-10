@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "全角ハイフン正規化",
+    "description": "Extension name."
+  },
+  "extDescription": {
+    "message": "フォームのテキストフィールドに入力された全角負記号(U+2212)を長音(U+30FC)に自動で変換します。",
+    "description": "Extension description."
+  }
+}

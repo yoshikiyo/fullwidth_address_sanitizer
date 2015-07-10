@@ -1,0 +1,18 @@
+Overview:
+Fullwidth Address Sanitizer is a chrome extension that automatically replaces
+MINUS SIGNs (U+2212) that appear in any input text forms, with HIRAGANA-KATAKANA
+PROLONGED SOUND MARKS (U+30FC).
+
+How to install:
+1. Create a chrome extension package by following instructions in
+   https://developer.chrome.com/extensions/packaging . You should see a .crx
+   file being created.
+2. Go to chrome://extensions page in Chrome browser, and check "Developer mode"
+   to enable developer mode.
+3. Drag and drop the .crx file created at 1 to the extensions page.
+4. Look for "Fullwidth Address Sanitizer" in the list, and check "Allow access
+   to file URLs".
+
+How to use:
+After installation, the extension will automatically replace U+2212 in any input
+text fields with U+30FC.
