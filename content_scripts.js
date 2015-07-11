@@ -19,5 +19,6 @@ function replaceMinusSign(node) {
 var nodes = document.querySelectorAll("input[type=text]");
 for (var i = 0; i < nodes.length; i++) {
   var node = nodes[i];
-  node.onchange = function() { replaceMinusSign(node); }
+  node.addEventListener(
+      'change', function(event) { replaceMinusSign(event.currentTarget); })
 }
